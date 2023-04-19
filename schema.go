@@ -1,10 +1,10 @@
 package arcaflow_plugin_iperf3_output
 
 import (
-	"arcaflow-plugin-iperf3-output/pkg/iperf"
-	"arcaflow-plugin-iperf3-output/pkg/result"
 	"bytes"
 	jsoniter "github.com/json-iterator/go"
+	"github.com/jtaleric/k8s-netperf/pkg/iperf"
+	"github.com/jtaleric/k8s-netperf/pkg/results"
 	"go.flow.arcalot.io/pluginsdk/schema"
 	"io/ioutil"
 	"os"
